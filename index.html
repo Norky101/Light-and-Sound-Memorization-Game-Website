@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    
+    <title>Noah Pilkington's Light and Sound Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    
+<style>
+body {
+  background-image: url('https://www.teahub.io/photos/full/15-152695_cartoon-grass-birds-eye-view.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+ 
+  </head>
+
+  <body>
+    <style>
+
+</style>
+    <!-- this is the start of content -->
+    <h1>THE LIGHT AND SOUND MEMORY GAME </h1>
+    
+    <p>
+      but with a twist...
+    </p>
+    <p>
+       It is the 'Whac-A-Mole' edition!
+    </p>
+    <p>
+      Repeat the pattern by clicking the buttons to catch the mole and save your garden!
+    </p>
+
+    
+    <button id="startBtn" onclick="startGame()">START</button>
+    
+    <button id="stopBtn" class="hidden" onclick="stopGame()">STOP</button>
+   
+    
+    <div id="gameButtonArea">
+      <button id="Button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"><img id="Button1img" src="https://c.tenor.com/U5DbAjGNOE8AAAAC/mole-topo.gif" alt="button1img"/></button>
+      <button id="Button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"><img id="Button2img" src="https://c.tenor.com/U5DbAjGNOE8AAAAC/mole-topo.gif" alt="button1img"/></button> 
+      <button id="Button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"><img id="Button3img" src="https://c.tenor.com/U5DbAjGNOE8AAAAC/mole-topo.gif" alt="button1img"/></button>
+      <button id="Button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"><img id="Button4img" src="https://c.tenor.com/U5DbAjGNOE8AAAAC/mole-topo.gif" alt="button1img"/></button>
+      <button id="Button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"><img id="Button5img" src="https://c.tenor.com/U5DbAjGNOE8AAAAC/mole-topo.gif" alt="button1img"/></button>
+      <button id="Button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"><img id="Button6img" src="https://c.tenor.com/U5DbAjGNOE8AAAAC/mole-topo.gif" alt="button1img"/></button>
+    </div>
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    
+  </body>
+
+</html>

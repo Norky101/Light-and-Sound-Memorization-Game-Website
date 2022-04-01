@@ -1,0 +1,107 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* body writing*/
+body {
+  margin: 2em;
+  text-align: center;
+  font-family: Copperplate,helvetica, arial,sans-serif;
+  line-height: 1.0;
+  color: black;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+/* Title writing*/
+h1
+{
+  font-family:cursive, verdana, arial, sans-serif; 
+  color:#FF0000;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+/* changes the start/stop button*/
+button
+{ 
+  padding: 30px;
+  border-radius: 50px;
+  font-weight: bolder;
+  color: #935116;
+  background: orange ;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:1px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Button colours*/
+#Button1 {
+    background: #935116 ;
+}
+#Button1:active, #Button1.lit {
+    background: lightgreen;
+}
+
+#Button2 {
+    background: #935116 ;
+}
+#Button2:active, #Button2.lit  { 
+    background: blue;
+}
+
+#Button3 {
+    background: #935116 ;
+}
+#Button3:active, #Button3.lit  {
+    background: red;
+}
+
+#Button4 {
+    background: #935116 ;
+}
+#Button4:active, #Button4.lit  {
+    background: yellow;
+}
+
+#Button5 {
+    background: #935116 ;
+}
+#Button5:active, #Button5.lit  {
+    background: Fuchsia;
+}
+#Button6 {
+    background: #935116 ;
+}
+#Button6:active, #Button6.lit  {
+    background: BlueViolet;
+}
+
+/*  Keeps the img hidden until clicked*/
+button > img {
+  display: none;
+}
+
+/*  Changes the image of the molesize*/
+button > img.pressed {
+  display: inline; 
+  position: inline;
+  height: 150px; /*   added */
+  width: 160px; /*   100 */
+}
+
