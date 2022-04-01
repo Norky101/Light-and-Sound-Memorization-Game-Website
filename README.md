@@ -39,6 +39,7 @@ The following **additional** features are implemented:
 - Added a background image instead of a just colour. 
 - Changed the start/stop button colours
 - Changes the title and body colours and fonts
+- Changes the pattern of the lights 
 
 ## Video Walkthrough (GIF)
 
