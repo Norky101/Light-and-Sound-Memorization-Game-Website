@@ -1,2 +1,3 @@
 # Light-and-Sound-Game
-Light and Sound Game for CodePath SITE 22
+Interactive website of the game "Light and Sound." 
+Using HTML,CSS and JavaScript.
