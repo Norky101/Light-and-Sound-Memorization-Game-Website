@@ -49,6 +49,9 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![x](gif3- http://g.recordit.co/Q8kcBbkAeS.gif)
 ![x](gif4- http://g.recordit.co/OVv19jZfLw.gif)
 
+-![Sample Gif](http://g.recordit.co/DSehveJwuJ.gif)
+
+
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
