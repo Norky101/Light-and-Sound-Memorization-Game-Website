@@ -38,14 +38,14 @@ The following **additional** features are implemented:
 
 - Added a background image instead of a just colour. 
 - Changed the start/stop button colours
-- Changes the title and body colours and fonts
+- Changes the title and body colours, fonts and sizes to fill the screen
 - Changes the pattern of the lights 
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
+![x](gif1-https://www.kapwing.com/videos/624797117dd4d30092791348)
+![x](gif2-https://www.kapwing.com/videos/62479e112ca5e90075b57639)
 ![](gif3-link-here)
 ![](gif4-link-here)
 
