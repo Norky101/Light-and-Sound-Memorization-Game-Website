@@ -44,8 +44,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![x](gif1-https://www.kapwing.com/videos/624797117dd4d30092791348)
-![x](gif2-https://www.kapwing.com/videos/62479e112ca5e90075b57639)
+![x](gif1-http://g.recordit.co/DSehveJwuJ.gif)
+![x](gif2-http://g.recordit.co/8nlDxaDVNE.gif)
 ![](gif3-link-here)
 ![](gif4-link-here)
 
